@@ -1,0 +1,85 @@
+:root {
+  --ff: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Body starts */
+
+body {
+  font-family: var(--ff);
+}
+
+/* nav starts */
+
+#navbar .navbar-brand {
+  color: #4a4a4a;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: var(--ff);
+}
+
+/* banner starts */
+
+#banner {
+  margin-bottom: 120px;
+}
+
+.carousel-item {
+  position: relative;
+  height: 650px;
+}
+
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  bottom: 200px;
+}
+
+.carousel-caption h1 {
+  font-size: 65px;
+}
+
+.carousel-caption p {
+  padding: 0 150px;
+}
+
+#courses{
+    margin-bottom: 120px;
+}
+
+#about{
+    margin-bottom: 120px;
+}
+
+#about .container{
+    background: #F4FAFD;
+}
+
+.about-image img{
+    width: 100%;
+}
+
+.about-text h1{
+    font-size: 45px;
+}
+
+#join .container{
+    background: #289BDE;
+    padding: 100px;
+}
