@@ -1,9 +1,15 @@
 @media only screen and (max-width: 600px) {
   #trusted,
-  #students,
   #join,
   #faq {
     display: none;
+  }
+  body{
+      margin: 0 10px;
+  }
+
+  #banner {
+    margin-bottom: 40px;
   }
   .carousel-item {
     position: relative;
@@ -22,16 +28,16 @@
     font-size: 12px;
   }
 
-  #about{
-      margin: 10px;
+  #about {
+    margin: 10px;
   }
 
-  #about .about-text{
-      padding: 0 30px 20px;
+  #about .about-text {
+    padding: 0 30px 20px;
   }
 
-  .about-image{
-      margin-bottom: 30px;
+  .about-image {
+    margin-bottom: 30px;
   }
 
   .about-text h1 {
@@ -41,8 +47,14 @@
   .about-text p {
     font-size: 16px;
   }
-  
-  .about-text .count .count-box h1{
+
+  .about-text .count .count-box h1 {
     font-size: 25px;
   }
+
+
+  #students h1 {
+    font-size: 20px;
+  }
 }
+
