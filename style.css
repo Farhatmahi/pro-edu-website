@@ -12,6 +12,11 @@ p{
   box-sizing: border-box;
 }
 
+.btn-clr{
+  background: #289BDE;
+  color: white;
+}
+
 /* Body starts */
 
 body {
