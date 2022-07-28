@@ -26,6 +26,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./responsive.css">
   </head>
   <body>
     <!-- navbar starts  -->
@@ -95,7 +96,7 @@
                   class="d-block w-100"
                   alt="..."
                 />
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <h1>Learning can take you places</h1>
                   <p>
                     It is a long established fact that a reader will be
@@ -111,7 +112,7 @@
                   class="d-block w-100"
                   alt="..."
                 />
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <h1>Learn in-demand skills</h1>
                   <p>
                     It is a long established fact that a reader will be
@@ -127,7 +128,7 @@
                   class="d-block w-100"
                   alt="..."
                 />
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <h1>Learn at your own pace</h1>
                   <p>
                     It is a long established fact that a reader will be
@@ -139,7 +140,7 @@
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              class="carousel-control-prev d-none d-md-block"
               type="button"
               data-bs-target="#carouselExampleCaptions"
               data-bs-slide="prev"
@@ -151,7 +152,7 @@
               <span class="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              class="carousel-control-next d-none d-md-block"
               type="button"
               data-bs-target="#carouselExampleCaptions"
               data-bs-slide="next"
@@ -171,15 +172,13 @@
 
     <section id="courses">
       <div class="container">
-        <div
-          class="d-flex justify-content-center flex-column align-items-center mb-5"
-        >
-          <h1>Discover Our Popular Courses</h1>
-          <p>
+        
+          <h1 class="text-center">Discover Our Popular Courses</h1>
+          <p class="text-center mb-5">
             Choose from 185,000 online video courses with new additions
             published every month
           </p>
-        </div>
+       
         <div class="row mb-5">
           <div
             class="col-lg-6 d-flex justify-content-center align-items-center flex-column"
@@ -347,9 +346,9 @@
           <div
             class="col-lg-6 d-flex flex-column justify-content-center align-items-center"
           >
-            <div class="about-text ps-5 pe-5">
+            <div class="about-text ps-lg-5 pe-lg-5">
               <h1 class="mb-4">Explore the E-learning Institute</h1>
-              <p class="mb-3">
+              <p class="mb-4">
                 From Art to Zoology, Pro Edu has thousands of free online
                 courses and is adding more all the time. We seek out experts in
                 their field to design learning material that is comprehensive,

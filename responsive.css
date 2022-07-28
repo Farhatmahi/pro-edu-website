@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+  #trusted,
+  #students,
+  #join,
+  #faq {
+    display: none;
+  }
+  .carousel-item {
+    position: relative;
+    height: 30vh;
+  }
+  .carousel-caption {
+    bottom: 0px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 20px;
+  }
+
+  .carousel-caption p {
+    padding: 0;
+    font-size: 12px;
+  }
+
+  #about{
+      margin: 10px;
+  }
+
+  #about .about-text{
+      padding: 0 30px 20px;
+  }
+
+  .about-image{
+      margin-bottom: 30px;
+  }
+
+  .about-text h1 {
+    font-size: 20px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+  
+  .about-text .count .count-box h1{
+    font-size: 25px;
+  }
+}
