@@ -2,33 +2,36 @@
   #trusted {
     display: none;
   }
-  
-  #navbar{
-      margin-bottom: 20px;
+
+  #navbar {
+    margin-bottom: 20px;
   }
 
-#navbar .navbar-brand{
+  #navbar .navbar-brand {
     font-size: 25px;
-}
+  }
 
-  #banner, #courses, #about, #students, #faq {
+  #banner,
+  #courses,
+  #about,
+  #students,
+  #faq {
     margin-bottom: 40px;
     margin-left: 10px;
     margin-right: 10px;
   }
 
   .carousel-inner div {
-    /* height: 400px; */
+    height: 200px;
     object-fit: cover;
-
-}
+  }
 
   .carousel-item {
     position: relative;
     height: 60vh;
   }
   .carousel-caption {
-    bottom: 0px;
+    top: 20px;
   }
 
   .carousel-caption h1 {
@@ -68,41 +71,177 @@
     font-size: 20px;
   }
 
-
-
   #join h1 {
     font-size: 18px;
     text-align: center;
   }
 
-  #join p{
-      font-size: 14px;
-      text-align: center;
+  #join p {
+    font-size: 14px;
+    text-align: center;
   }
 
-  #join .container{
-      padding: 30px 20px;
+  #join .container {
+    padding: 30px 20px;
   }
 
-  #students p{
-      font-size: 14px;
+  #students p {
+    font-size: 14px;
   }
 
-  #faq h1{
-      font-size: 20px;
+  #faq h1 {
+    font-size: 20px;
   }
-  #faq p{
-      font-size: 14px;
+  #faq p {
+    font-size: 14px;
   }
-  #faq .accordion-body{
-      color : #777;
-      font-size: 14px;
+  #faq .accordion-body {
+    color: #777;
+    font-size: 14px;
   }
 
-  #footer h1{
-      font-size: 25px;
+  #footer h1 {
+    font-size: 25px;
   }
-  #footer p{
-      font-size: 14px;
+  #footer p {
+    font-size: 14px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  #navbar {
+    margin-bottom: 20px;
+  }
+
+  #trusted {
+    display: none;
+  }
+
+  #navbar .navbar-brand {
+    font-size: 25px;
+  }
+
+  #banner,
+  #courses,
+  #about,
+  #students,
+  #faq {
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .carousel-inner div {
+    height: 350px;
+    /* object-fit: cover; */
+  }
+
+  .carousel-item {
+    position: relative;
+    /* height: 60vh; */
+  }
+  .carousel-caption {
+    top: 80px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 40px;
+  }
+
+  .carousel-caption p {
+    padding: 0;
+    font-size: 16px;
+  }
+
+  #courses h1 {
+    font-size: 30px;
+  }
+
+  #courses p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  #courses .card-text {
+    padding: 0;
+  }
+
+  #courses {
+    margin-bottom: 80px;
+  }
+
+  #about {
+    margin: 10px;
+  }
+
+  #about .about-text {
+    padding: 0 20px 20px;
+  }
+
+  .about-image {
+    margin-bottom: 30px;
+  }
+
+  .about-text h1 {
+    font-size: 30px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+  .about-text .count .count-box h1 {
+    font-size: 25px;
+  }
+
+  #students h1 {
+    font-size: 20px;
+  }
+
+  #join h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #join p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #join .container {
+    padding: 30px 20px;
+  }
+
+  #students h1 {
+    font-size: 30px;
+  }
+
+  #students p {
+    font-size: 14px;
+    padding: 0 100px;
+  }
+  #faq {
+    margin-top: 40px;
+  }
+
+  #faq h1 {
+    font-size: 30px;
+  }
+  #faq p {
+    font-size: 14px;
+    padding: 0 100px;
+  }
+  #faq .accordion-body {
+    color: #777;
+    font-size: 14px;
+  }
+
+
+  #footer h1 {
+    font-size: 25px;
+  }
+  #footer p {
+    font-size: 14px;
   }
 }
