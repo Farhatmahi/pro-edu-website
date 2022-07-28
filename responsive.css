@@ -1,19 +1,31 @@
 @media only screen and (max-width: 600px) {
-  #trusted,
-  #join,
-  #faq {
+  #trusted {
     display: none;
   }
-  body{
-      margin: 0 10px;
+  
+  #navbar{
+      margin-bottom: 20px;
   }
 
-  #banner {
+#navbar .navbar-brand{
+    font-size: 25px;
+}
+
+  #banner, #courses, #about, #students, #faq {
     margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
+
+  .carousel-inner div {
+    /* height: 400px; */
+    object-fit: cover;
+
+}
+
   .carousel-item {
     position: relative;
-    height: 30vh;
+    height: 60vh;
   }
   .carousel-caption {
     bottom: 0px;
@@ -33,7 +45,7 @@
   }
 
   #about .about-text {
-    padding: 0 30px 20px;
+    padding: 0 20px 20px;
   }
 
   .about-image {
@@ -52,9 +64,45 @@
     font-size: 25px;
   }
 
-
   #students h1 {
     font-size: 20px;
   }
-}
 
+
+
+  #join h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #join p{
+      font-size: 14px;
+      text-align: center;
+  }
+
+  #join .container{
+      padding: 30px 20px;
+  }
+
+  #students p{
+      font-size: 14px;
+  }
+
+  #faq h1{
+      font-size: 20px;
+  }
+  #faq p{
+      font-size: 14px;
+  }
+  #faq .accordion-body{
+      color : #777;
+      font-size: 14px;
+  }
+
+  #footer h1{
+      font-size: 25px;
+  }
+  #footer p{
+      font-size: 14px;
+  }
+}
